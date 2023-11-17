@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`performs snapshot testing 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="books-container"
+  >
+    <div
+      className="book-collection"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="card-header"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          >
+            Books with Male Owners
+          </h6>
+        </div>
+        <div
+          className="card-content"
+        >
+          <ul
+            className="book-list"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+              data-testid="test-noBooks"
+            >
+              No books available.
+            </h6>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="space-between"
+    />
+    <div
+      className="book-collection"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="card-header"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          >
+            Books with Female Owners
+          </h6>
+        </div>
+        <div
+          className="card-content"
+        >
+          <ul
+            className="book-list"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+              data-testid="test-noBooks"
+            >
+              No books available.
+            </h6>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <hr
+    className="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+  />
+  <br />
+  <div
+    className="MuiStack-root css-w1eqp8-MuiStack-root"
+  >
+    <a
+      className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+      data-testid="test-getHandcoverOnly"
+      href="#"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+      >
+        Hardcover Only
+      </h6>
+    </a>
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      data-testid="test-getBooks"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+      >
+        Get Books
+      </h6>
+    </button>
+  </div>
+</div>
+`;
