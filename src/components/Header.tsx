@@ -10,6 +10,7 @@ interface HeaderProps{
 function Header(props: HeaderProps) {
   return (
     <>
+      <header id="app-header">
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static">
             <Toolbar className="Header">
@@ -19,6 +20,7 @@ function Header(props: HeaderProps) {
             </Toolbar>
           </AppBar>
         </Box>
+        </header>
     </>
   );
 }

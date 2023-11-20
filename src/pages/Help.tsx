@@ -1,7 +1,7 @@
 import { Divider, Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 
-function Help() {
+function Help() : JSX.Element  {
     return (
         <>
             <Stack spacing={{ xs: 1, sm: 2 }} direction={"column"} useFlexGap flexWrap="wrap" alignItems={"left"} justifyContent={"left"}>

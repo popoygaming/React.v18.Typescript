@@ -50,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@axe-core/react": "^4.8.1",
     "@types/react-test-renderer": "^18.0.5"
   }
 }

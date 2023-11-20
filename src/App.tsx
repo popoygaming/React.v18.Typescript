@@ -5,13 +5,24 @@ import { RouterProvider } from "react-router-dom";
 import router from "./router/router";
 
 function App() {
+
+  const React = require("react");
+  const ReactDOM = require("react-dom");
+
+  if (process.env.NODE_ENV !== "production") {
+    const axe = require("@axe-core/react");
+    axe(React, ReactDOM, 1000);
+  }
+
   return (
     <html lang="en">
       <header>
         <Header title={HEADER_TITLE}></Header>
       </header>
       <body className="app-body">
-        <RouterProvider router={router} />
+      <main>
+          <RouterProvider router={router} />
+      </main>
       </body>
     </html>
   );

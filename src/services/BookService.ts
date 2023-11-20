@@ -4,7 +4,7 @@ import { API_URL_BOOKS, BookTypes, Gender } from "../utils/constants";
 const http = axios.create({
     baseURL: API_URL_BOOKS,
     headers: {
-      "Content-Type": "application/json",
+    "Content-Type": "application/json",
     },
 });
 

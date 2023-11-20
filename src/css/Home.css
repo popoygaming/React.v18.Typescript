@@ -17,6 +17,11 @@
 .space-between{
   width: 40px;
 }
+span {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: underline;
+}
 
 @media (max-width: 600px) {
   .books-container {
